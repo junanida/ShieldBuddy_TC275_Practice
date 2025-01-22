@@ -1,0 +1,887 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc14560a --dep-file=Total_Pjt.d -c99 --fp-model=3cflnrSTz -D__CPU__=tc27xd -D__CPU_TC27XD__ --core=tc1.6.x --fp-model=+float -D__CPU__=tc27xd -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Configurations -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Platform -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Sfr -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Infra\\\\Sfr\\\\TC27D\\\\_Reg -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Service -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Service\\\\CpuGeneric -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\CStart -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Cpu\\\\Trap -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tim -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tim\\\\In -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Gtm\\\\Tom\\\\Pwm -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Mtu\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Port\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Scu\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Src\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Stm\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Adc -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\Vadc\\\\Std -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_Impl -IC:\\\\Users\\\\User\\\\AURIX-v1.10.6-workspace\\\\Ex_Pjt_Total\\\\Libraries\\\\iLLD\\\\TC27D\\\\Tricore\\\\_PinMap -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Total_Pjt.src ../Total_Pjt.c"
+	.compiler_name		"ctc"
+	;source	'../Total_Pjt.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.Total_Pjt.Total_Pjt_step',code,cluster('Total_Pjt_step')
+	.sect	'.text.Total_Pjt.Total_Pjt_step'
+	.align	2
+	
+	.global	Total_Pjt_step
+; Function Total_Pjt_step
+.L10:
+Total_Pjt_step:	.type	func
+	movh.a	a15,#@his(Total_Pjt_U)
+	lea	a15,[a15]@los(Total_Pjt_U)
+.L64:
+	ld.bu	d15,[a15]
+.L65:
+	jne	d15,#0,.L2
+.L66:
+	movh.a	a15,#@his(Total_Pjt_DW)
+	lea	a15,[a15]@los(Total_Pjt_DW)
+.L67:
+	ld.w	d15,[a15]
+.L68:
+	itof	d15,d15
+.L69:
+	movh	d0,#16384
+.L70:
+	mul.f	d15,d15,d0
+.L71:
+	mov	d0,#4059
+	addih	d0,d0,#16457
+.L72:
+	mul.f	d15,d15,d0
+.L73:
+	movh	d0,#17302
+.L74:
+	div.f	d4,d15,d0
+	call	sin
+.L75:
+	mov	d15,#20480
+	addih	d15,d15,#18115
+.L76:
+	mov	d0,#20480
+	addih	d0,d0,#18115
+.L77:
+	madd.f	d4,d0,d2,d15
+.L78:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L79:
+	call	floor
+.L80:
+	mov	d4,d2
+	call	__f_ftous
+.L81:
+	st.h	[a15],d2
+.L82:
+	j	.L3
+.L2:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L83:
+	mov	d15,#0
+.L84:
+	st.h	[a15],d15
+.L3:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L85:
+	movh.a	a2,#@his(Total_Pjt_U)
+	lea	a2,[a2]@los(Total_Pjt_U)
+.L86:
+	ld.w	d15,[a2]2
+.L87:
+	mov.u	d0,#49152
+	addih	d0,d0,#17704
+.L88:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L89:
+	eq	d15,d15,#0
+	utof	d15,d15
+.L90:
+	st.w	[a15]2,d15
+.L91:
+	movh.a	a15,#@his(Total_Pjt_U)
+	lea	a15,[a15]@los(Total_Pjt_U)
+.L92:
+	ld.w	d15,[a15]6
+.L93:
+	mov.u	d0,#32768
+	addih	d0,d0,#17698
+.L94:
+	cmp.f	d15,d15,d0
+	extr.u	d15,d15,#2,#1
+.L95:
+	jeq	d15,#0,.L4
+.L96:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L97:
+	mov	d15,#0
+.L98:
+	st.b	[a15]6,d15
+.L99:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L100:
+	mov	d15,#0
+.L101:
+	st.b	[a15]7,d15
+.L102:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L103:
+	mov	d15,#1
+.L104:
+	st.b	[a15]8,d15
+.L105:
+	j	.L5
+.L4:
+	movh.a	a15,#@his(Total_Pjt_U)
+	lea	a15,[a15]@los(Total_Pjt_U)
+.L106:
+	ld.w	d15,[a15]6
+.L107:
+	mov.u	d0,#32768
+	addih	d0,d0,#17570
+.L108:
+	cmp.f	d15,d15,d0
+	jnz.t	d15:2,.L6
+.L109:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L110:
+	mov	d15,#1
+.L111:
+	st.b	[a15]6,d15
+.L112:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L113:
+	mov	d15,#0
+.L114:
+	st.b	[a15]7,d15
+.L115:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L116:
+	mov	d15,#0
+.L117:
+	st.b	[a15]8,d15
+.L118:
+	j	.L7
+.L6:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L119:
+	mov	d15,#0
+.L120:
+	st.b	[a15]6,d15
+.L121:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L122:
+	mov	d15,#1
+.L123:
+	st.b	[a15]7,d15
+.L124:
+	movh.a	a15,#@his(Total_Pjt_Y)
+	lea	a15,[a15]@los(Total_Pjt_Y)
+.L125:
+	mov	d15,#0
+.L126:
+	st.b	[a15]8,d15
+.L7:
+.L5:
+	movh.a	a15,#@his(Total_Pjt_DW)
+	lea	a15,[a15]@los(Total_Pjt_DW)
+	movh.a	a2,#@his(Total_Pjt_DW)
+	lea	a2,[a2]@los(Total_Pjt_DW)
+.L127:
+	ld.w	d15,[a2]
+.L128:
+	add	d15,#1
+	st.w	[a15],d15
+.L129:
+	movh.a	a15,#@his(Total_Pjt_DW)
+	lea	a15,[a15]@los(Total_Pjt_DW)
+.L130:
+	ld.w	d15,[a15]
+.L131:
+	mov	d0,#300
+.L132:
+	jne	d15,d0,.L8
+.L133:
+	movh.a	a15,#@his(Total_Pjt_DW)
+	lea	a15,[a15]@los(Total_Pjt_DW)
+.L134:
+	mov	d15,#0
+.L135:
+	st.w	[a15],d15
+.L8:
+	ret
+.L45:
+	
+__Total_Pjt_step_function_end:
+	.size	Total_Pjt_step,__Total_Pjt_step_function_end-Total_Pjt_step
+.L28:
+	; End of function
+	
+	.sdecl	'.text.Total_Pjt.Total_Pjt_initialize',code,cluster('Total_Pjt_initialize')
+	.sect	'.text.Total_Pjt.Total_Pjt_initialize'
+	.align	2
+	
+	.global	Total_Pjt_initialize
+; Function Total_Pjt_initialize
+.L12:
+Total_Pjt_initialize:	.type	func
+	ret
+.L44:
+	
+__Total_Pjt_initialize_function_end:
+	.size	Total_Pjt_initialize,__Total_Pjt_initialize_function_end-Total_Pjt_initialize
+.L23:
+	; End of function
+	
+	.sdecl	'.text.Total_Pjt.Total_Pjt_terminate',code,cluster('Total_Pjt_terminate')
+	.sect	'.text.Total_Pjt.Total_Pjt_terminate'
+	.align	2
+	
+	.global	Total_Pjt_terminate
+; Function Total_Pjt_terminate
+.L14:
+Total_Pjt_terminate:	.type	func
+	ret
+.L46:
+	
+__Total_Pjt_terminate_function_end:
+	.size	Total_Pjt_terminate,__Total_Pjt_terminate_function_end-Total_Pjt_terminate
+.L33:
+	; End of function
+	
+	.sdecl	'.bss.Total_Pjt.Total_Pjt_DW',data,cluster('Total_Pjt_DW')
+	.sect	'.bss.Total_Pjt.Total_Pjt_DW'
+	.global	Total_Pjt_DW
+	.align	2
+Total_Pjt_DW:	.type	object
+	.size	Total_Pjt_DW,4
+	.space	4
+	.sdecl	'.bss.Total_Pjt.Total_Pjt_U',data,cluster('Total_Pjt_U')
+	.sect	'.bss.Total_Pjt.Total_Pjt_U'
+	.global	Total_Pjt_U
+	.align	4
+Total_Pjt_U:	.type	object
+	.size	Total_Pjt_U,12
+	.space	12
+	.sdecl	'.bss.Total_Pjt.Total_Pjt_Y',data,cluster('Total_Pjt_Y')
+	.sect	'.bss.Total_Pjt.Total_Pjt_Y'
+	.global	Total_Pjt_Y
+	.align	4
+Total_Pjt_Y:	.type	object
+	.size	Total_Pjt_Y,12
+	.space	12
+	.sdecl	'.bss.Total_Pjt.Total_Pjt_M_',data,cluster('Total_Pjt_M_')
+	.sect	'.bss.Total_Pjt.Total_Pjt_M_'
+	.align	4
+Total_Pjt_M_:	.type	object
+	.size	Total_Pjt_M_,4
+	.space	4
+	.sdecl	'.rodata.Total_Pjt.Total_Pjt_M',data,rom,cluster('Total_Pjt_M')
+	.sect	'.rodata.Total_Pjt.Total_Pjt_M'
+	.global	Total_Pjt_M
+	.align	4
+Total_Pjt_M:	.type	object
+	.size	Total_Pjt_M,4
+	.word	Total_Pjt_M_
+	.calls	'Total_Pjt_step','__f_ftous'
+	.calls	'Total_Pjt_step','sin'
+	.calls	'Total_Pjt_step','floor'
+	.calls	'Total_Pjt_step','',0
+	.calls	'Total_Pjt_initialize','',0
+	.extern	sin
+	.extern	floor
+	.extern	__f_ftous
+	.calls	'Total_Pjt_terminate','',0
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L16:
+	.word	883
+	.half	3
+	.word	.L17
+	.byte	4
+.L15:
+	.byte	1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L18
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'sin',0,1,88,25
+	.word	186
+	.byte	1,1,1,1,4,1,88,43
+	.word	186
+	.byte	0,3
+	.byte	'floor',0,1,204,1,25
+	.word	186
+	.byte	1,1,1,1,4,1,204,1,43
+	.word	186
+	.byte	0,5,1,6
+	.word	249
+	.byte	7
+	.byte	'__codeptr',0,2,1,1
+	.word	251
+	.byte	2
+	.byte	'char',0,1,6,7
+	.byte	'int8_T',0,3,50,21
+	.word	274
+	.byte	2
+	.byte	'unsigned char',0,1,8,7
+	.byte	'uint8_T',0,3,51,23
+	.word	297
+	.byte	2
+	.byte	'short int',0,2,5,7
+	.byte	'int16_T',0,3,52,15
+	.word	330
+	.byte	2
+	.byte	'unsigned short int',0,2,7,7
+	.byte	'uint16_T',0,3,53,24
+	.word	359
+	.byte	2
+	.byte	'int',0,4,5,7
+	.byte	'int32_T',0,3,54,13
+	.word	398
+	.byte	2
+	.byte	'unsigned int',0,4,7,7
+	.byte	'uint32_T',0,3,55,22
+	.word	421
+	.byte	7
+	.byte	'real32_T',0,3,56,15
+	.word	186
+	.byte	7
+	.byte	'real64_T',0,3,57,16
+	.word	186
+	.byte	7
+	.byte	'real_T',0,3,63,16
+	.word	186
+	.byte	7
+	.byte	'boolean_T',0,3,65,23
+	.word	297
+	.byte	2
+	.byte	'char',0,1,6,7
+	.byte	'char_T',0,3,69,14
+	.word	521
+	.byte	8
+	.word	521
+	.byte	6
+	.word	544
+	.byte	9
+	.word	549
+.L51:
+	.byte	10
+	.byte	'tag_RTM_Total_Pjt_T',0,4,59,8,4,11
+	.byte	'errorStatus',0
+	.word	554
+	.byte	4,2,35,0,0,7
+	.byte	'RT_MODEL_Total_Pjt_T',0,5,23,36
+	.word	559
+.L47:
+	.byte	12,4,38,9,4,11
+	.byte	'counter',0
+	.word	398
+	.byte	4,2,35,0,0,7
+	.byte	'DW_Total_Pjt_T',0,4,40,3
+	.word	635
+.L48:
+	.byte	12,4,43,9,12,11
+	.byte	'pushSW',0
+	.word	297
+	.byte	1,2,35,0,11
+	.byte	'lightSensor',0
+	.word	186
+	.byte	4,2,35,2,11
+	.byte	'rotRegister',0
+	.word	186
+	.byte	4,2,35,6,0,7
+	.byte	'ExtU_Total_Pjt_T',0,4,47,3
+	.word	681
+.L49:
+	.byte	12,4,50,9,12,11
+	.byte	'blueLed',0
+	.word	359
+	.byte	2,2,35,0,11
+	.byte	'redLed',0
+	.word	186
+	.byte	4,2,35,2,11
+	.byte	'RLed',0
+	.word	297
+	.byte	1,2,35,6,11
+	.byte	'GLed',0
+	.word	297
+	.byte	1,2,35,7,11
+	.byte	'BLed',0
+	.word	297
+	.byte	1,2,35,8,0,7
+	.byte	'ExtY_Total_Pjt_T',0,4,56,3
+	.word	770
+	.byte	6
+	.word	559
+.L50:
+	.byte	8
+	.word	876
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L17:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,46,1,3,8,58,15,59,15,57,15
+	.byte	73,19,54,15,39,12,63,12,60,12,0,0,4,5,0,58,15,59,15,57,15,73,19,0,0,5,21,0,54,15,0,0,6,15,0,73,19,0,0
+	.byte	7,22,0,3,8,58,15,59,15,57,15,73,19,0,0,8,38,0,73,19,0,0,9,53,0,73,19,0,0,10,19,1,3,8,58,15,59,15,57,15
+	.byte	11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0,0,12,19,1,58,15,59,15,57,15,11,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L18:
+	.word	.L53-.L52
+.L52:
+	.half	3
+	.word	.L55-.L54
+.L54:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'C:\\Infineon\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0,0
+	.byte	'math.h',0,1,0,0
+	.byte	'../Total_Pjt.c',0,0,0,0
+	.byte	'..\\rtwtypes.h',0,0,0,0
+	.byte	'..\\Total_Pjt.h',0,0,0,0
+	.byte	'..\\Total_Pjt_types.h',0,0,0,0,0
+.L55:
+.L53:
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_info'
+.L19:
+	.word	243
+	.half	3
+	.word	.L20
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L22,.L21
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_initialize',0,1,156,1,6,1,1,1
+	.word	.L12,.L44,.L11
+	.byte	4
+	.word	.L12,.L44
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_abbrev'
+.L20:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_line'
+.L21:
+	.word	.L57-.L56
+.L56:
+	.half	3
+	.word	.L59-.L58
+.L58:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Total_Pjt.c',0,0,0,0,0
+.L59:
+	.byte	5,1,7,0,5,2
+	.word	.L12
+	.byte	3,158,1,1,7,9
+	.half	.L23-.L12
+	.byte	0,1,1
+.L57:
+	.sdecl	'.debug_ranges',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_ranges'
+.L22:
+	.word	-1,.L12,0,.L23-.L12,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_info'
+.L24:
+	.word	236
+	.half	3
+	.word	.L25
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L27,.L26
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_step',0,1,37,6,1,1,1
+	.word	.L10,.L45,.L9
+	.byte	4
+	.word	.L10,.L45
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_abbrev'
+.L25:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_line'
+.L26:
+	.word	.L61-.L60
+.L60:
+	.half	3
+	.word	.L63-.L62
+.L62:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Total_Pjt.c',0,0,0,0,0
+.L63:
+	.byte	5,8,7,0,5,2
+	.word	.L10
+	.byte	3,41,1,5,19,9
+	.half	.L64-.L10
+	.byte	1,5,8,9
+	.half	.L65-.L64
+	.byte	1,5,55,7,9
+	.half	.L66-.L65
+	.byte	3,5,1,5,67,9
+	.half	.L67-.L66
+	.byte	1,5,47,9
+	.half	.L68-.L67
+	.byte	1,5,78,9
+	.half	.L69-.L68
+	.byte	1,5,76,9
+	.half	.L70-.L69
+	.byte	1,5,9,9
+	.half	.L71-.L70
+	.byte	3,1,1,5,7,9
+	.half	.L72-.L71
+	.byte	1,5,30,9
+	.half	.L73-.L72
+	.byte	1,5,28,9
+	.half	.L74-.L73
+	.byte	1,5,39,9
+	.half	.L75-.L74
+	.byte	1,5,49,9
+	.half	.L76-.L75
+	.byte	1,5,47,9
+	.half	.L77-.L76
+	.byte	1,5,5,9
+	.half	.L78-.L77
+	.byte	3,127,1,5,47,9
+	.half	.L79-.L78
+	.byte	3,1,1,5,27,9
+	.half	.L80-.L79
+	.byte	3,127,1,5,25,9
+	.half	.L81-.L80
+	.byte	1,5,47,9
+	.half	.L82-.L81
+	.byte	3,1,1,5,5,9
+	.half	.L2-.L82
+	.byte	3,9,1,5,27,9
+	.half	.L83-.L2
+	.byte	1,5,25,9
+	.half	.L84-.L83
+	.byte	1,5,3,9
+	.half	.L3-.L84
+	.byte	3,11,1,5,26,9
+	.half	.L85-.L3
+	.byte	1,5,37,9
+	.half	.L86-.L85
+	.byte	1,5,52,9
+	.half	.L87-.L86
+	.byte	1,5,50,9
+	.half	.L88-.L87
+	.byte	1,5,24,9
+	.half	.L89-.L88
+	.byte	1,5,22,9
+	.half	.L90-.L89
+	.byte	1,5,7,9
+	.half	.L91-.L90
+	.byte	3,5,1,5,18,9
+	.half	.L92-.L91
+	.byte	1,5,33,9
+	.half	.L93-.L92
+	.byte	1,5,31,9
+	.half	.L94-.L93
+	.byte	1,5,3,9
+	.half	.L95-.L94
+	.byte	1,5,5,7,9
+	.half	.L96-.L95
+	.byte	3,8,1,5,24,9
+	.half	.L97-.L96
+	.byte	1,5,22,9
+	.half	.L98-.L97
+	.byte	1,5,5,9
+	.half	.L99-.L98
+	.byte	3,6,1,5,24,9
+	.half	.L100-.L99
+	.byte	1,5,22,9
+	.half	.L101-.L100
+	.byte	1,5,5,9
+	.half	.L102-.L101
+	.byte	3,6,1,5,24,9
+	.half	.L103-.L102
+	.byte	1,5,22,9
+	.half	.L104-.L103
+	.byte	1,5,29,9
+	.half	.L105-.L104
+	.byte	3,116,1,5,14,9
+	.half	.L4-.L105
+	.byte	3,15,1,5,25,9
+	.half	.L106-.L4
+	.byte	1,5,40,9
+	.half	.L107-.L106
+	.byte	1,5,10,9
+	.half	.L108-.L107
+	.byte	1,5,5,9
+	.half	.L109-.L108
+	.byte	3,31,1,5,24,9
+	.half	.L110-.L109
+	.byte	1,5,22,9
+	.half	.L111-.L110
+	.byte	1,5,5,9
+	.half	.L112-.L111
+	.byte	3,6,1,5,24,9
+	.half	.L113-.L112
+	.byte	1,5,22,9
+	.half	.L114-.L113
+	.byte	1,5,5,9
+	.half	.L115-.L114
+	.byte	3,6,1,5,24,9
+	.half	.L116-.L115
+	.byte	1,5,22,9
+	.half	.L117-.L116
+	.byte	1,5,29,9
+	.half	.L118-.L117
+	.byte	3,93,1,5,5,9
+	.half	.L6-.L118
+	.byte	1,5,24,9
+	.half	.L119-.L6
+	.byte	1,5,22,9
+	.half	.L120-.L119
+	.byte	1,5,5,9
+	.half	.L121-.L120
+	.byte	3,6,1,5,24,9
+	.half	.L122-.L121
+	.byte	1,5,22,9
+	.half	.L123-.L122
+	.byte	1,5,5,9
+	.half	.L124-.L123
+	.byte	3,6,1,5,24,9
+	.half	.L125-.L124
+	.byte	1,5,22,9
+	.half	.L126-.L125
+	.byte	1,5,3,9
+	.half	.L5-.L126
+	.byte	3,31,1,5,15,9
+	.half	.L127-.L5
+	.byte	1,5,23,9
+	.half	.L128-.L127
+	.byte	1,5,7,9
+	.half	.L129-.L128
+	.byte	3,1,1,5,19,9
+	.half	.L130-.L129
+	.byte	1,5,31,9
+	.half	.L131-.L130
+	.byte	1,5,3,9
+	.half	.L132-.L131
+	.byte	1,5,5,7,9
+	.half	.L133-.L132
+	.byte	3,1,1,5,28,9
+	.half	.L134-.L133
+	.byte	1,5,26,9
+	.half	.L135-.L134
+	.byte	1,5,1,9
+	.half	.L8-.L135
+	.byte	3,4,1,7,9
+	.half	.L28-.L8
+	.byte	0,1,1
+.L61:
+	.sdecl	'.debug_ranges',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_ranges'
+.L27:
+	.word	-1,.L10,0,.L28-.L10,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_info'
+.L29:
+	.word	242
+	.half	3
+	.word	.L30
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1
+	.word	.L32,.L31
+	.byte	2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_terminate',0,1,162,1,6,1,1,1
+	.word	.L14,.L46,.L13
+	.byte	4
+	.word	.L14,.L46
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_abbrev'
+.L30:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_line'
+.L31:
+	.word	.L137-.L136
+.L136:
+	.half	3
+	.word	.L139-.L138
+.L138:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Total_Pjt.c',0,0,0,0,0
+.L139:
+	.byte	5,1,7,0,5,2
+	.word	.L14
+	.byte	3,164,1,1,7,9
+	.half	.L33-.L14
+	.byte	0,1,1
+.L137:
+	.sdecl	'.debug_ranges',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_ranges'
+.L32:
+	.word	-1,.L14,0,.L33-.L14,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_DW')
+	.sect	'.debug_info'
+.L34:
+	.word	212
+	.half	3
+	.word	.L35
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_DW',0,2,24,16
+	.word	.L47
+	.byte	1,5,3
+	.word	Total_Pjt_DW
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_DW')
+	.sect	'.debug_abbrev'
+.L35:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_U')
+	.sect	'.debug_info'
+.L36:
+	.word	211
+	.half	3
+	.word	.L37
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_U',0,2,27,18
+	.word	.L48
+	.byte	1,5,3
+	.word	Total_Pjt_U
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_U')
+	.sect	'.debug_abbrev'
+.L37:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_Y')
+	.sect	'.debug_info'
+.L38:
+	.word	211
+	.half	3
+	.word	.L39
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_Y',0,2,30,18
+	.word	.L49
+	.byte	1,5,3
+	.word	Total_Pjt_Y
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_Y')
+	.sect	'.debug_abbrev'
+.L39:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_M')
+	.sect	'.debug_info'
+.L40:
+	.word	211
+	.half	3
+	.word	.L41
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_M',0,2,34,29
+	.word	.L50
+	.byte	1,5,3
+	.word	Total_Pjt_M
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_M')
+	.sect	'.debug_abbrev'
+.L41:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,63,12,2,9
+	.byte	0,0,0
+	.sdecl	'.debug_info',debug,cluster('Total_Pjt_M_')
+	.sect	'.debug_info'
+.L42:
+	.word	211
+	.half	3
+	.word	.L43
+	.byte	4,1
+	.byte	'../Total_Pjt.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'C:\\Users\\User\\AURIX-v1.10.6-workspace\\Ex_Pjt_Total\\TriCore Debug (TASKING)\\',0,12,1,2
+	.word	.L15
+	.byte	3
+	.byte	'Total_Pjt_M_',0,2,33,29
+	.word	.L51
+	.byte	5,3
+	.word	Total_Pjt_M_
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('Total_Pjt_M_')
+	.sect	'.debug_abbrev'
+.L43:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_loc'
+.L11:
+	.word	-1,.L12,0,.L44-.L12
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_loc'
+.L9:
+	.word	-1,.L10,0,.L45-.L10
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_loc'
+.L13:
+	.word	-1,.L14,0,.L46-.L14
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L140:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('Total_Pjt_step')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L140,.L10,.L45-.L10
+	.sdecl	'.debug_frame',debug,cluster('Total_Pjt_initialize')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L140,.L12,.L44-.L12
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	.sdecl	'.debug_frame',debug,cluster('Total_Pjt_terminate')
+	.sect	'.debug_frame'
+	.word	24
+	.word	.L140,.L14,.L46-.L14
+	.byte	8,18,8,19,8,20,8,21,8,22,8,23
+	; Module end
